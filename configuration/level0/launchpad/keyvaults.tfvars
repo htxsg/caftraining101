@@ -1,6 +1,6 @@
 keyvaults = {
   level0 = {
-    name                = "cri3-lp-lv0-nprod-004" # use desired name, keyvault name char limit: 24
+    name                = "<CHANGE THIS>" # use desired name, keyvault name char limit: 24
     resource_group_key  = "level0"
     sku_name            = "standard"
     soft_delete_enabled = true
@@ -8,8 +8,6 @@ keyvaults = {
       tfstate = "level0" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                            # use paas
-      tier    = "na"                              # use na
       purpose = "CAF base setup level 0 keyvault" # can be changed
     }
 
@@ -33,17 +31,17 @@ keyvaults = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "keyvault_all"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "keyvault_all"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 
   level1 = {
-    name                = "cri3-lp-lv1-nprod-004" # use desired name, keyvault name char limit: 24
+    name                = "<CHANGE THIS>" # use desired name, keyvault name char limit: 24
     resource_group_key  = "level1"
     sku_name            = "standard"
     soft_delete_enabled = true
@@ -51,8 +49,6 @@ keyvaults = {
       tfstate = "level1" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                            # use paas
-      tier    = "na"                              # use na
       purpose = "CAF base setup level 1 keyvault" # can be changed
     }
 
@@ -76,17 +72,17 @@ keyvaults = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "keyvault_all"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "keyvault_all"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 
   level2 = {
-    name                = "cri3-lp-lv2-nprod-004" # use desired name, keyvault name char limit: 24
+    name                = "<CHANGE THIS>" # use desired name, keyvault name char limit: 24
     resource_group_key  = "level2"
     sku_name            = "standard"
     soft_delete_enabled = true
@@ -94,8 +90,6 @@ keyvaults = {
       tfstate = "level2" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                            # use paas
-      tier    = "na"                              # use na
       purpose = "CAF base setup level 2 keyvault" # can be changed
     }
 
@@ -119,12 +113,12 @@ keyvaults = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "keyvault_all"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "keyvault_all"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 }

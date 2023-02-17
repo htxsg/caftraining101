@@ -35,32 +35,27 @@ tags = {
 
 resource_groups = {
   level0 = {
-    name = "cri3-lp-lv0-nprod-004" # use desired name
+    name = "caf-training-lvl0" # use desired name
     tags = {
       level        = "level0"                                # do not change
-      project-code = "cri3"                                  # use project-code
-      system-env   = "nprod"                                 # use env
+      project-code = "caf_training"                          # use project-code
       purpose      = "CAF base setup level 0 resource group" # can be changed
     }
   }
   level1 = {
-    name = "cri3-lp-lv1-nprod-004" # use desired name
+    name = "caf-training-lvl1" # use desired name
     tags = {
       level        = "level1"                                # do not change
-      project-code = "cri3"                                  # use project-code
-      system-env   = "nprod"                                 # use env
+      project-code = "caf_training"                          # use project-code
       purpose      = "CAF base setup level 1 resource group" # can be changed
     }
   }
   level2 = {
-    name = "cri3-lp-lv2-nprod-004" # use desired name
+    name = "caf-training-lvl2" # use desired name
     tags = {
       level        = "level2"                                # do not change
-      project-code = "cri3"                                  # use project-code
-      system-env   = "nprod"                                 # use env
+      project-code = "caf_training"                          # use project-code
       purpose      = "CAF base setup level 2 resource group" # can be changed
     }
   }
 }
-
-###

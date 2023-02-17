@@ -1,13 +1,13 @@
-diagnostics_destinations = {
-  log_analytics = {
-    central_logs = {
-      # set below to LAW resource id
-      log_analytics_resource_id = "/subscriptions/3f416113-06a5-4a29-ac0a-44352759a919/resourcegroups/gcci-agency-law/providers/microsoft.operationalinsights/workspaces/gcci-agency-workspace"
-      # set below to LAW workspace id 
-      log_analytics_workspace_id = "ab666363-fd48-490e-b937-2d6ee2b41662"
-    }
-  }
-}
+# diagnostics_destinations = {
+#   log_analytics = {
+#     central_logs = {
+#       # set below to LAW resource id
+#       log_analytics_resource_id = "/subscriptions/3f416113-06a5-4a29-ac0a-44352759a919/resourceGroups/gcci-agency-law/providers/Microsoft.OperationalInsights/workspaces/gcci-agency-workspace"
+#       # set below to LAW workspace id 
+#       log_analytics_workspace_id = "ab666363-fd48-490e-b937-2d6ee2b41662"
+#     }
+#   }
+# }
 
 #
 # Define a set of settings for the various type of Azure resources

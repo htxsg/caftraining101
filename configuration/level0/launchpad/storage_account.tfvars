@@ -1,6 +1,6 @@
 storage_accounts = {
   level0 = {
-    name                     = "cri3lplv0nprod004" # use desired name, no spaces or special characters
+    name                     = "caftraininglvl0" # use desired name, no spaces or special characters
     resource_group_key       = "level0"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
@@ -11,8 +11,6 @@ storage_accounts = {
       tfstate = "level0" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                                   # use paas
-      tier    = "na"                                     # use na
       purpose = "CAF base setup level 0 storage account" # can be changed
     }
     blob_properties = {
@@ -36,17 +34,17 @@ storage_accounts = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "storage_account"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "storage_account"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 
   level1 = {
-    name                     = "cri3lplv1nprod004" # use desired name, no spaces or special characters
+    name                     = "caftraininglvl1" # use desired name, no spaces or special characters
     resource_group_key       = "level1"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
@@ -56,8 +54,6 @@ storage_accounts = {
       tfstate = "level1" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                                   # use paas
-      tier    = "na"                                     # use na
       purpose = "CAF base setup level 1 storage account" # can be changed
     }
     blob_properties = {
@@ -81,17 +77,17 @@ storage_accounts = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "storage_account"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "storage_account"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 
   level2 = {
-    name                     = "cri3lplv2nprod004" # use desired name, no spaces or special characters
+    name                     = "caftraininglvl2" # use desired name, no spaces or special characters
     resource_group_key       = "level2"
     account_kind             = "BlobStorage"
     account_tier             = "Standard"
@@ -101,8 +97,6 @@ storage_accounts = {
       tfstate = "level2" # do not change
       # inherit tag: agency-code from global settings
       # inherit tags: project-code and env from resource group
-      zone    = "paas"                                   # use paas
-      tier    = "na"                                     # use na
       purpose = "CAF base setup level 2 storage account" # can be changed
     }
     blob_properties = {
@@ -126,12 +120,12 @@ storage_accounts = {
     #   }
     # }
 
-    diagnostic_profiles = {
-      operations = {
-        definition_key   = "storage_account"
-        destination_type = "log_analytics"
-        destination_key  = "central_logs"
-      }
-    }
+    # diagnostic_profiles = {
+    #   operations = {
+    #     definition_key   = "storage_account"
+    #     destination_type = "log_analytics"
+    #     destination_key  = "central_logs"
+    #   }
+    # }
   }
 }
